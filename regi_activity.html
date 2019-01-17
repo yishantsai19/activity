@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- 加入boorstrap樣式 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <style>
+        body{
+        font-family: "Helvetica Neue", Helvetica, Arial, "微軟正黑體", "微软雅黑", sans-serif;
+    }
+    </style>
+    <title>活動報名系統</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand ml-5 " href="/index.html">國立中正大學輔導中心 活動報名系統</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/index.html">輔導中心</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/regi_activity.html">中正大學</a>
+                </li>
+            </ul>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active ">
+                    <a class="nav-link" href="/index.html">活動列表<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/regi_activity.html">我的活動</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/login.html">登入</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="pageinfo mt-5">
+            <h2>
+                我的活動
+            </h2>
+        </div>
+        <!-- table -->
+        <div class="table-responsive">
+            <table class="table mt-2 border rounded-3 table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">活動名稱</th>
+                        <th scope="col">活動日期</th>
+                        <th scope="col">修改報名資訊</th>
+                        <th scope="col">取消報名</th>
+                        <th scope="col">詳細活動資訊</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row" style="max-width: 500px;word-wrap:break-word"">We accept the love we think we deserve ──《壁花男孩》電影賞</th>
+                        <td>2018-12-10</td>
+                        <td>
+                            <a class="btn btn-dark rounded btn-sm" href="/avtivity_detail.html" role="button">
+                                修改報名資訊
+                            </a>
+                        </td>
+                        <td>
+                            <a class="btn btn-dark rounded btn-sm" href="/avtivity_detail.html" role="button">
+                                取消報名
+                            </a>
+                        </td>
+                        <td>
+                            <a class="btn btn-dark rounded btn-sm" href="/avtivity_detail.html" role="button">
+                                詳細活動資訊
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" style="max-width: 500px;word-wrap:break-word">We accept the love we think we deserve ──《壁花男孩》電影賞56465464654646544646546465464646465464654646646546465465465465464654654</th>
+                        <td>2018-12-10</td>
+                        <td>
+                            <a class="btn btn-dark rounded btn-sm" href="/avtivity_detail.html" role="button">
+                                修改報名資訊
+                            </a>
+                        </td>
+                        <td>
+                            <a class="btn btn-dark rounded btn-sm" href="/avtivity_detail.html" role="button">
+                                取消報名
+                            </a>
+                        </td>
+                        <td>
+                            <a class="btn btn-dark rounded btn-sm" href="/avtivity_detail.html" role="button">
+                                詳細活動資訊
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

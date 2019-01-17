@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- 加入boorstrap樣式 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <style>
+        body{
+        font-family: "Helvetica Neue", Helvetica, Arial, "微軟正黑體", "微软雅黑", sans-serif;
+    }
+    </style>
+    <title>活動報名系統</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand ml-5 " href="/index.html">國立中正大學輔導中心 活動報名系統</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="http://advising.ccu.edu.tw/">輔導中心</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://www.ccu.edu.tw/">國立中正大學</a>
+                </li>
+            </ul>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active ">
+                    <a class="nav-link" href="/index.html">活動列表<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/regi_activity.html">我的活動</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/login.html">登入</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="pageinfo mt-5">
+            <h2>
+                活動報名
+            </h2>
+        </div>
+        <!-- form -->
+        <form class="w-100 mt-3 border p-4">
+            <div class="form-group form-row">
+                <label class="col-1">活動名稱</label>
+                <label class="col-7">We accept the love we think we deserve ──《壁花男孩》電影賞</label>
+            </div>
+            <div class="form-group form-row">
+                <label class="col-1">姓名</label>
+                <label class="col-5">王曉明</label>
+                <label class="col-1">學號</label>
+                <label class="col-5">404000001</label>
+            </div>
+            <div class="form-group form-row">
+                <label class="col-1">行動電話</label>
+                <div class="col-5">
+                    <input type="text" class="form-control" placeholder="請輸入行動電話">
+                </div>
+                <label class="col-1">email</label>
+                <div class="col-5">
+                    <input type="email" class="form-control" placeholder="請輸入email">
+                </div>
+            </div>
+            <div class="form-group form-row">
+                <label class="col-1">便當</label>
+                <div class="col-5">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">葷</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                        <label class="form-check-label" for="inlineCheckbox2">素</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>問題</label>
+                <input type="text" class="form-control" placeholder="請輸入回答">
+            </div>
+            <div class="form-group">
+                <label>備註</label>
+                <input type="text" class="form-control" placeholder="請輸入備註">
+            </div>
+            <button type="submit" class="btn btn-dark">送出</button>
+            <!-- <div class="form-group">
+                <label>新增問題</label>
+                <button id="addQues" onclick="addQues()">新增</button>
+            </div> -->
+            <!-- <script>
+                // function addQues(){
+                //     var questions=document.getElementById("question")
+                //     var newQuestion=document.createElement("div")
+                //     newQuestion.id = 'block';
+                //     iDiv.className = 'form-group';
+                //     questions.appendChild(newQuestion);
+                // }
+                
+                
+            </script>
+            <div id="questions">
+                <div class="form-group">
+                    <label>問題標題</label>
+                    <input type="password" class="form-control" placeholder="請輸入問題標題">
+                    <label>問題</label>
+                    <input type="password" class="form-control" placeholder="請輸入問題">
+                </div>
+            </div> -->
+
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

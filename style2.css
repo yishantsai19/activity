@@ -1,0 +1,60 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, "微軟正黑體", "微软雅黑", sans-serif;
+    background-color: #dcedc1;
+}
+
+.bg-cover {
+    background-size: cover;
+    background-position: center center;
+}
+
+.date-text {
+    color: grey;
+    font-size: 150%
+}
+
+.card-text {
+    font-size: 120%;
+}
+
+.bg-pink {
+    background-color: #ffb3ba;
+}
+
+.bg-orange {
+    background-color: #ffdfba;
+}
+
+.bg-yellow {
+    background-color: #ffffba;
+}
+
+.bg-blue {
+    background-color: #bae1ff;
+}
+
+.bg-green {
+    background-color: #baffc9;
+}
+
+/* h2 {
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;} */
+.card {
+    border: 5px dashed #ff8b94;
+}
+
+.card-title {
+    color: #000000;
+}
+
+.detailBtn {
+    background-color: #2e3e50;
+    color: white;
+}
+.container{
+    background-color:white;
+}
+.pageinfo h1{
+    color:black;
+    font-weight: 600;
+}
