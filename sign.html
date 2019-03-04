@@ -8,42 +8,35 @@
     <!-- 加入boorstrap樣式 -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
         crossorigin="anonymous">
-    <style>
-        body{
-        font-family: "Helvetica Neue", Helvetica, Arial, "微軟正黑體", "微软雅黑", sans-serif;
-    }
-    </style>
+    <!-- css sheet -->
+    <link rel="stylesheet" href="./style.css">
     <title>活動報名系統</title>
 </head>
 
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand ml-5 " href="/index.html">國立中正大學輔導中心 活動報名系統</a>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand card-text" href="./index.html">國立中正大學輔導中心 活動報名系統</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="http://advising.ccu.edu.tw/">輔導中心</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="http://www.ccu.edu.tw/">國立中正大學</a>
                 </li>
-            </ul>
-        </div>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
                 <li class="nav-item active ">
-                    <a class="nav-link" href="/index.html">活動列表<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="./index.html">活動列表<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/regi_activity.html">我的活動</a>
+                    <a class="nav-link" href="./regi_activity.html">我的活動</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/login.html">登入</a>
+                    <a class="nav-link" href="./login.html">登入</a>
                 </li>
             </ul>
         </div>
@@ -98,7 +91,7 @@
                 <label>備註</label>
                 <input type="text" class="form-control" placeholder="請輸入備註">
             </div>
-            <button type="submit" class="btn btn-dark">送出</button>
+            <button type="submit" class="btn bg-blue">送出</button>
             <!-- <div class="form-group">
                 <label>新增問題</label>
                 <button id="addQues" onclick="addQues()">新增</button>
